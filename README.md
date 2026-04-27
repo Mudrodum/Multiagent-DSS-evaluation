@@ -115,7 +115,7 @@ The analytical layer and the language-model layer are separated by design. Forec
 │   └── utils/                  # shared helper objects
 ├── plot_module/                # plotting utilities
 ├── notebooks/
-│   └── epidemic_surveillance_pipeline.ipynb
+│   └── multiagent_system_evaluation.ipynb
 ├── data/
 │   ├── spb/
 │   ├── samara/
@@ -130,7 +130,7 @@ The analytical layer and the language-model layer are separated by design. Forec
 The primary execution interface is:
 
 ```text
-notebooks/epidemic_surveillance_pipeline.ipynb
+notebooks/multiagent_system_evaluation.ipynb
 ```
 
 Generated outputs under `results_csv/` and `reports/` are excluded from version control unless they are intentionally added as small documentation examples.
@@ -161,7 +161,7 @@ poetry run python -m ipykernel install --user \
 Open the notebook and select the `epidemic-surveillance` kernel:
 
 ```text
-notebooks/epidemic_surveillance_pipeline.ipynb
+notebooks/multiagent_system_evaluation.ipynb
 ```
 
 ### Dependencies used by the full workflow
@@ -262,7 +262,7 @@ The model names must match the names returned by `ollama list` on the local mach
 3. Open the main notebook:
 
    ```text
-   notebooks/epidemic_surveillance_pipeline.ipynb
+   notebooks/multiagent_system_evaluation.ipynb
    ```
 
 4. Select a city request and an optional end date:
