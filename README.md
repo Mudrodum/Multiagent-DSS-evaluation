@@ -1,3 +1,5 @@
+UPD: The updated version of the project is available via https://github.com/Mudrodum/multiagent-dss-epidemic
+
 # Multiagent Epidemic Surveillance System
 
 Grounded epidemic surveillance reporting with interpretable forecasting, structured analytical context, local LLM agents, and evaluator-based quality control.
